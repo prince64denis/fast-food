@@ -87,7 +87,7 @@ header {
   font-size: 14px;
   border-radius: 50px 0px 0px 50px;
   padding: 10px 25px;
-  border: 1px solid gray;
+  border: 1px solid rgb(224, 224, 224);
   color: #333333;
 }
 #recherche > p > i {
@@ -98,6 +98,7 @@ header {
   padding: 10px;
   list-style: none;
   margin: -0px -0px -0px -1px;
+  border: solid 1px rgb(224, 224, 224);
 }
 #recherche > input[type="text"]::placeholder {
   padding: 0px 15px;
@@ -317,6 +318,10 @@ header {
 }
 .slidetailleaside > img {
   width: 100%;
+}
+.slidetailleaside > img:hover {
+  transition: all 0.5s ease;
+  filter: blur(2px);
 }
 .slidetailleasidetexte {
   position: absolute;
