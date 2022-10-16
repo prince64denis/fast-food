@@ -106,6 +106,7 @@ header {
 #recherche > input[type="submit"] {
   font-family: futura-medium;
   font-size: 18px;
+  color: #303030;
   border: 1px solid yellow;
   border-radius: 0px 50px 50px 0px;
   padding: 10px;
@@ -134,10 +135,19 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0px 5px;
 }
 .bouttonconnexion > a {
   text-decoration: none;
+}
+.bouttonconnexion > a > h1{
   color: #303030;
+  font-family: lato;
+  font-size: 16px;
+}
+.bouttonconnexion:hover {
+  transition: all 0.1s ease;
+  border-bottom: 2px solid #c82811;
 }
 .bouttonconnexion > i {
   padding: 0px 5px 0px 0px;
@@ -914,7 +924,6 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 #newslettersformulaire > form > input[type="email"] {
   font-size: 14px;
@@ -926,7 +935,8 @@ section {
 #newslettersformulaire > form > input[type="submit"] {
   font-family: futura-medium;
   font-size: 18px;
-  border: 1px solid yellow;
+  color: #303030;
+  border: none;
   border-radius: 0px 50px 50px 0px;
   padding: 10px 20px;
   background: linear-gradient(
