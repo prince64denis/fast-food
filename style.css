@@ -275,7 +275,7 @@ header {
   box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.7);
 }
 #slidetailleimagegrandtexte a > h1:hover {
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   background: linear-gradient(
     0deg,
     rgb(218, 11, 11) 30%,
@@ -357,7 +357,7 @@ header {
     rgba(255, 248, 136, 1) 100%
   );
   color: #333333;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   box-shadow: none;
 }
 #service {
@@ -383,7 +383,7 @@ header {
 .service:hover {
   background-color: rgb(238, 225, 105);
   color: black;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 .servicetexte > a > h1:hover {
   color: #c82811;
@@ -450,7 +450,7 @@ header {
 }
 .ventedujourplats:hover {
   transition: all 0.5s ease;
-  background-color: ;
+  transform: translate(0px, -15px);
 }
 .ventedujourplats > img {
   max-width: 200px;
@@ -525,6 +525,9 @@ section {
   padding-left: 30px;
   font-family: lato;
   font-size: 14px;
+}
+#notremenutitredefilement > a > h2:hover {
+  color: #f2f150;
 }
 #notremenusuivant {
   display: flex;
@@ -601,6 +604,10 @@ section {
   font-size: 1.5em;
   color: #303030;
 }
+.notremenuimageetdetail:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
 .notremenuimageetdetail > h1 {
   font-family: futura-medium;
   font-size: 1em;
@@ -657,7 +664,7 @@ section {
   box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.7);
 }
 #livraisongratuitedetails a > h1:hover {
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   background: linear-gradient(
     0deg,
     rgb(218, 11, 11) 30%,
@@ -738,6 +745,10 @@ section {
   justify-content: center;
   align-items: center;
 }
+.venteduweekendimagesetdetail:hover {
+  transition: all 0.5s ease;
+  transform: translate(0px, -15px);
+}
 .venteduweekendimagesetdetail > a > img {
   width: 100%;
 }
@@ -810,6 +821,10 @@ section {
   align-items: center;
   background-color: #303030;
 }
+.menupopulairebloquedetails:hover {
+  transition: all 0.5s ease;
+  transform: translate(0px, -15px);
+}
 .menupopulairebloquedetails > a > img {
   width: 100%;
 }
@@ -831,7 +846,7 @@ section {
   box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.5);
 }
 .menupopulairebloquedetails > a > h1:hover {
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   background: linear-gradient(
     0deg,
     rgb(218, 11, 11) 30%,
@@ -925,7 +940,7 @@ section {
     rgb(255, 76, 76) 100%
   );
   color: white;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 #newslettersreseaux {
   width: 25%;
@@ -934,9 +949,15 @@ section {
   justify-content: center;
   align-items: center;
 }
-#newslettersreseaux > i {
+#newslettersreseaux > a {
+  text-decoration: none;
+}
+#newslettersreseaux > a > i {
   color: white;
   padding: 0px 0px 0px 10px;
+}
+#newslettersreseaux > a > i:hover {
+  color: #f2f150;
 }
 footer {
   width: 100%;
