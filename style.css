@@ -80,24 +80,22 @@ header {
   flex-direction: row;
   justify-content: center;
 }
-#recherche > p {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 14px;
-  border-radius: 50px 0px 0px 50px;
-  padding: 10px 25px;
-  border: 1px solid rgb(224, 224, 224);
-  color: #333333;
+#recherche > label {
+  
 }
-#recherche > p > i {
-  padding: 0px 0px 0px 10px;
+#recherche > label > button{
+  border-radius: 50px 0px 0px 50px !important;
+  padding: 10px 25px !important;
+  border: 1px solid rgb(224, 224, 224) !important;
+  color: #333333 !important;
+  background-color: white !important;
+  font-size: 14px;
 }
 #recherche > input[type="text"] {
   font-size: 14px;
-  padding: 10px;
+  padding: 5px;
   list-style: none;
-  margin: -0px -0px -0px -1px;
+  margin: 0px 0px 0px -1px;
   border: solid 1px rgb(224, 224, 224);
 }
 #recherche > input[type="text"]::placeholder {
@@ -109,7 +107,7 @@ header {
   color: #303030;
   border: 1px solid yellow;
   border-radius: 0px 50px 50px 0px;
-  padding: 10px;
+  padding: 5px;
   background: linear-gradient(
     0deg,
     rgba(255, 240, 0, 1) 30%,
@@ -144,6 +142,7 @@ header {
   color: #303030;
   font-family: lato;
   font-size: 16px;
+  margin: 0px;
 }
 .bouttonconnexion:hover {
   transition: all 0.1s ease;
@@ -182,12 +181,20 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 0px;
+}
+#navbarmenugauche {
+  padding: 0px;
+}
+#navbarmenugauche > li > a:focus{
+  color: yellow;
 }
 #navbartaille > ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 0px;
 }
 #navbartaille > ul > li {
   list-style-type: none;
@@ -200,14 +207,12 @@ header {
   color: white;
   font-family: futura-medium;
 }
-#menunavbar {
-  padding: 10px;
+#menunavbar > button {
+  padding: 15px 25px !important;
   background-color: #c82811;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   color: white;
   text-decoration: none;
+  border: none;
 }
 #menunavbar > a {
   padding: 0px 25px;
@@ -242,6 +247,7 @@ header {
 }
 #offre > a > p {
   padding: 0px 0px 0px 5px;
+  margin: 0px;
 }
 
 #slidetailleimagegrandtexte {
@@ -407,6 +413,9 @@ header {
 .service > a {
   text-decoration: none;
   color: #c82811;
+}
+.service > a:hover {
+  color: #303030;
 }
 .servicetexte {
   padding: 0px 0px 0px 20px;
