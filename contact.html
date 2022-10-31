@@ -15,72 +15,54 @@
 
 <body>
 
-    <header>
-        <div id="barhaut">
-            <div id="barhauttaille">
-                <div id="logo">
-                    <a href="index.html">
-                        <img src="image/logo/utensils-solid.svg" alt="">
-                        <div id="titre">
-                            Fast FOOD
-                        </div>
-                    </a>
-                </div>
-                <div id="rechercheparent">
-                    <form id="recherche">
-                        <label class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1 class="text-white"><span>F</span>ast FOOD</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white bg-danger" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Filtrer
-                            </button>
+                                MENU
+                            </a>
                             <ul class="dropdown-menu">
-                                <li><button class="dropdown-item" type="button">filtre 1</button></li>
-                                <li><button class="dropdown-item" type="button">filtre 2</button></li>
-                                <li><button class="dropdown-item" type="button">filtre 3</button></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </label>
-                        <input type="text" name="text" placeholder="faites votre recherche">
-                        <input type="submit" value="RECHERCHER">
-                    </form>
-                </div>
-                <div class="connexion">
-                    <div class="bouttonconnexion">
-                        <i class="fa-regular fa-user fa-1x"></i>
-                        <a href="#">
-                            <h1>Connexion</h1>
-                        </a>
-                    </div>
-                    <div class="panier">
-                        <a href="#"><i class="fa-solid fa-cart-shopping fa-1x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="navbar">
-            <div id="navbartaille">
-                <ul id="navbarmenugauche">
-                    <li id="menunavbar" class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            MENU
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><button class="dropdown-item" type="button">MENU 1</button></li>
-                            <li><button class="dropdown-item" type="button">MENU 2</button></li>
-                            <li><button class="dropdown-item" type="button">MENU 3</button></li>
-                        </ul>
-                    </li>
-                    <li id="accueilnavbar"><a href="index.html">ACCUEIL</a></li>
-                    <li id="contactnavbar"><a href="contact.html">CONTACT</a></li>
-                    <li id="aproposnavbar"><a href="a_propos.html">A PROPOS</a></li>
-                </ul>
-                <div id="offre">
-                    <a href="#"><i class="fa-solid fa-gifts fa-1x"></i>
-                        <p>Offre Speciale</p>
-                    </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="a_propos.html">A Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Votre Recherche" aria-label="Search">
+                                <button class="btn btn-outline-warning" type="submit">Rechercher</button>
+                            </form>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-warning">Connexion</button>
                 </div>
             </div>
-        </div>
+        </nav>
+
     </header>
 
     <section id="section_info_contact">

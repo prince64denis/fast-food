@@ -15,536 +15,518 @@
 
 <body>
 
-    <header>
-        <div id="barhaut">
-            <div id="barhauttaille">
-                <div id="logo">
-                    <a href="index.html">
-                        <img src="image/logo/utensils-solid.svg" alt="">
-                        <div id="titre">
-                            Fast FOOD
-                        </div>
-                    </a>
-                </div>
-                <div id="rechercheparent">
-                    <form id="recherche">
-                        <label class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1 class="text-white"><span>F</span>ast FOOD</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white bg-danger" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Filtrer
-                            </button>
+                                MENU
+                            </a>
                             <ul class="dropdown-menu">
-                                <li><button class="dropdown-item" type="button">filtre 1</button></li>
-                                <li><button class="dropdown-item" type="button">filtre 2</button></li>
-                                <li><button class="dropdown-item" type="button">filtre 3</button></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </label>
-                        <input type="text" name="text" placeholder="faites votre recherche">
-                        <input type="submit" value="RECHERCHER">
-                    </form>
-                </div>
-                <div class="connexion">
-                    <div class="bouttonconnexion">
-                        <i class="fa-regular fa-user fa-1x"></i>
-                        <a href="#">
-                            <h1>Connexion</h1>
-                        </a>
-                    </div>
-                    <div class="panier">
-                        <a href="#"><i class="fa-solid fa-cart-shopping fa-1x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="navbar">
-            <div id="navbartaille">
-                <ul id="navbarmenugauche">
-                    <li id="menunavbar" class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            MENU
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><button class="dropdown-item" type="button">MENU 1</button></li>
-                            <li><button class="dropdown-item" type="button">MENU 2</button></li>
-                            <li><button class="dropdown-item" type="button">MENU 3</button></li>
-                        </ul>
-                    </li>
-                    <li id="accueilnavbar"><a href="index.html">ACCUEIL</a></li>
-                    <li id="aproposnavbar"><a href="a_propos.html">A PROPOS</a></li>
-                    <li id="contactnavbar"><a href="contact.html">CONTACT</a></li>
-                </ul>
-                <div id="offre">
-                    <a href="#"><i class="fa-solid fa-gifts fa-1x"></i>
-                        <p>Offre Speciale</p>
-                    </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="a_propos.html">A Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Votre Recherche" aria-label="Search">
+                                <button class="btn btn-outline-warning" type="submit">Rechercher</button>
+                            </form>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-warning">Connexion</button>
                 </div>
             </div>
-        </div>
+        </nav>
+
     </header>
 
-        <section id="slide">
-            <div id="slidetaille">
-                <div id="slidetailleimagegrand" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#slidetailleimagegrand" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#slidetailleimagegrand" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#slidetailleimagegrand" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+    <section id="slide">
+        <div id="slidetaille">
+            <div id="slidetailleimagegrand" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#slidetailleimagegrand" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#slidetailleimagegrand" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#slidetailleimagegrand" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/c2.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div id="slidetailleimagegrandtexte">
+                            <h2>FRESH VEGETABLES</h2>
+                            <h1>SEA FOOD PIZZA</h1>
+                            <h3> BUY #1 GET #1</h3>
+                            <a href="#">
+                                <h1>COMMANDER MAINTENANT</h1>
+                            </a>
+                        </div>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="image/c2.jpg" class="d-block w-100 img-fluid" alt="...">
-                            <div id="slidetailleimagegrandtexte">
-                                <h2>FRESH VEGETABLES</h2>
-                                <h1>SEA FOOD PIZZA</h1>
-                                <h3> BUY #1 GET #1</h3>
-                                <a href="#">
-                                    <h1>COMMANDER MAINTENANT</h1>
-                                </a>
-                            </div>
+                    <div class="carousel-item">
+                        <img src="image/c1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div id="slidetailleimagegrandtexte">
+                            <h2>FRESH VEGETABLES</h2>
+                            <h1>SEA FOOD PIZZA</h1>
+                            <h3> BUY #1 GET #1</h3>
+                            <a href="#">
+                                <h1>COMMANDER MAINTENANT</h1>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="image/c1.jpg" class="d-block w-100 img-fluid" alt="...">
-                            <div id="slidetailleimagegrandtexte">
-                                <h2>FRESH VEGETABLES</h2>
-                                <h1>SEA FOOD PIZZA</h1>
-                                <h3> BUY #1 GET #1</h3>
-                                <a href="#">
-                                    <h1>COMMANDER MAINTENANT</h1>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="image/c3.jpg" class="d-block w-100 img-fluid" alt="...">
-                            <div id="slidetailleimagegrandtexte">
-                                <h2>FRESH VEGETABLES</h2>
-                                <h1>SEA FOOD PIZZA</h1>
-                                <h3> BUY #1 GET #1</h3>
-                                <a href="#">
-                                    <h1>COMMANDER MAINTENANT</h1>
-                                </a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#slidetailleimagegrand"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#slidetailleimagegrand"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
+                    <div class="carousel-item">
+                        <img src="image/c3.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div id="slidetailleimagegrandtexte">
+                            <h2>FRESH VEGETABLES</h2>
+                            <h1>SEA FOOD PIZZA</h1>
+                            <h3> BUY #1 GET #1</h3>
+                            <a href="#">
+                                <h1>COMMANDER MAINTENANT</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slidetailleimagegrand"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#slidetailleimagegrand"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 
-                </div>
-                <aside id="slideaside">
-                    <div class="slidetailleaside">
-                        <img src="image/c4.jpg" class="img-fluid" alt="">
-                        <div class="slidetailleasidetexte">
-                            <h2>COMBO PACK OFFER</h2>
-                            <h1>FRESH TOMATOES</h1>
-                            <a href="#">
-                                <h1>COMMANDER MAINTENANT</h1>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="slidetailleaside">
-                        <img src="image/c5.jpg" class="img-fluid" alt="">
-                        <div class="slidetailleasidetexte">
-                            <h2>COMBO PACK OFFER</h2>
-                            <h1>FRESH TOMATOES</h1>
-                            <a href="#">
-                                <h1>COMMANDER MAINTENANT</h1>
-                            </a>
-                        </div>
-                    </div>
-                </aside>
             </div>
-        </section>
-        <section id="service">
-            <div id="servicetaille">
-                <div class="service">
-                    <a href="#"><i class="fa-solid fa-truck-fast fa-3x"></i></a>
-                    <div class="servicetexte">
+            <aside id="slideaside">
+                <div class="slidetailleaside">
+                    <img src="image/c4.jpg" class="img-fluid" alt="">
+                    <div class="slidetailleasidetexte">
+                        <h2>COMBO PACK OFFER</h2>
+                        <h1>FRESH TOMATOES</h1>
                         <a href="#">
-                            <h1>LIVRAISON</h1>
+                            <h1>COMMANDER MAINTENANT</h1>
                         </a>
-                        <p>On all orders over &99.</p>
                     </div>
                 </div>
-                <div class="service">
-                    <a href="#"><i class="fa-regular fa-envelope-open fa-3x"></i></a>
-                    <div class="servicetexte">
+                <div class="slidetailleaside">
+                    <img src="image/c5.jpg" class="img-fluid" alt="">
+                    <div class="slidetailleasidetexte">
+                        <h2>COMBO PACK OFFER</h2>
+                        <h1>FRESH TOMATOES</h1>
                         <a href="#">
-                            <h1>SUPPORT</h1>
+                            <h1>COMMANDER MAINTENANT</h1>
                         </a>
-                        <p>Delicated support</p>
                     </div>
                 </div>
-                <div class="service">
-                    <a href="#"><i class="fa-solid fa-sack-dollar fa-3x"></i></a>
-                    <div class="servicetexte">
-                        <a href="#">
-                            <h1>REMBOURSEMENT</h1>
-                        </a>
-                        <p>100% money back.</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <a href="#"><i class="fa-sharp fa-solid fa-money-check-dollar fa-3x"></i></a>
-                    <div class="servicetexte">
-                        <a href="#">
-                            <h1>PAIEMENT SECURISE</h1>
-                        </a>
-                        <p>Pay with the world's most</p>
-                    </div>
+            </aside>
+        </div>
+    </section>
+    <section id="service">
+        <div id="servicetaille">
+            <div class="service">
+                <a href="#"><i class="fa-solid fa-truck-fast fa-3x"></i></a>
+                <div class="servicetexte">
+                    <a href="#">
+                        <h1>LIVRAISON</h1>
+                    </a>
+                    <p>On all orders over &99.</p>
                 </div>
             </div>
-        </section>
-        <section id="ventedujour">
-            <div id="ventedujourtaille">
-                <h1>Vente du jour</h1>
-                <p>Fin dans : 0J: 8H: 45M : 30S</p>
-                <div id="ventedujourdefilement">
-                    <div class="ventedujourplats">
-                        <img src="image/pizza1.jpg" alt="">
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2 class="ventedujourprix">20$</h2>
+            <div class="service">
+                <a href="#"><i class="fa-regular fa-envelope-open fa-3x"></i></a>
+                <div class="servicetexte">
+                    <a href="#">
+                        <h1>SUPPORT</h1>
+                    </a>
+                    <p>Delicated support</p>
+                </div>
+            </div>
+            <div class="service">
+                <a href="#"><i class="fa-solid fa-sack-dollar fa-3x"></i></a>
+                <div class="servicetexte">
+                    <a href="#">
+                        <h1>REMBOURSEMENT</h1>
+                    </a>
+                    <p>100% money back.</p>
+                </div>
+            </div>
+            <div class="service">
+                <a href="#"><i class="fa-sharp fa-solid fa-money-check-dollar fa-3x"></i></a>
+                <div class="servicetexte">
+                    <a href="#">
+                        <h1>PAIEMENT SECURISE</h1>
+                    </a>
+                    <p>Pay with the world's most</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ventedujour">
+        <div id="ventedujourtaille">
+            <h1>Vente du jour</h1>
+            <p>Fin dans : 0J: 8H: 45M : 30S</p>
+            <div id="ventedujourdefilement">
+                <div class="ventedujourplats">
+                    <img src="image/pizza1.jpg" alt="">
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2 class="ventedujourprix">20$</h2>
+                    <h3 class="ventedujournote">*****</h3>
+                </div>
+                <div class="ventedujourplats">
+                    <img src="image/pizza2.jpg" alt="">
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2 class="ventedujourprix">20$</h3>
                         <h3 class="ventedujournote">*****</h3>
+                </div>
+                <div class="ventedujourplats">
+                    <img src="image/pizza3.jpg" alt="">
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2 class="ventedujourprix">20$</h3>
+                        <h3 class="ventedujournote">*****</h3>
+                </div>
+                <div class="ventedujourplats">
+                    <img src="image/pizza4.jpg" alt="">
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2 class="ventedujourprix">20$</h3>
+                        <h3 class="ventedujournote">*****</h3>
+                </div>
+                <div class="ventedujourplats">
+                    <img src="image/pizza5.jpg" alt="">
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2 class="ventedujourprix">20$</h3>
+                        <h3 class="ventedujournote">*****</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="notremenu">
+        <div id="notremenutaille">
+            <div id="notregrandmenutitredefilement">
+                <div id="notremenutitredefilement">
+                    <h1>Notre Menu</h1>
+                    <a href="#">
+                        <h2>Pizza</h2>
+                    </a>
+                    <a href="#">
+                        <h2>Sandwich</h2>
+                    </a>
+                    <a href="#">
+                        <h2>Salade</h2>
+                    </a>
+                    <a href="#">
+                        <h2>Plats</h2>
+                    </a>
+                </div>
+            </div>
+            <div id="notremenubloqueimage">
+                <div id="notremenulisteimage">
+                    <div class="notremenuimageetdetail">
+                        <img src="image/pizza1.jpg" alt="">
+                        <h1>Pizza salade fromage</h1>
+                        <h2>20$</h2>
+                        <h3>*****</h3>
                     </div>
-                    <div class="ventedujourplats">
+                    <div class="notremenuimageetdetail">
                         <img src="image/pizza2.jpg" alt="">
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2 class="ventedujourprix">20$</h3>
-                            <h3 class="ventedujournote">*****</h3>
+                        <h1>Pizza salade fromage</h1>
+                        <h2>20$</h2>
+                        <h3>*****</h3>
                     </div>
-                    <div class="ventedujourplats">
+                    <div class="notremenuimageetdetail">
                         <img src="image/pizza3.jpg" alt="">
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2 class="ventedujourprix">20$</h3>
-                            <h3 class="ventedujournote">*****</h3>
+                        <h1>Pizza salade fromage</h1>
+                        <h2>20$</h2>
+                        <h3>*****</h3>
                     </div>
-                    <div class="ventedujourplats">
+                    <div class="notremenuimageetdetail">
                         <img src="image/pizza4.jpg" alt="">
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2 class="ventedujourprix">20$</h3>
-                            <h3 class="ventedujournote">*****</h3>
+                        <h1>Pizza salade fromage</h1>
+                        <h2>20$</h2>
+                        <h3>*****</h3>
                     </div>
-                    <div class="ventedujourplats">
+                    <div class="notremenuimageetdetail">
                         <img src="image/pizza5.jpg" alt="">
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2 class="ventedujourprix">20$</h3>
-                            <h3 class="ventedujournote">*****</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="notremenu">
-            <div id="notremenutaille">
-                <div id="notregrandmenutitredefilement">
-                    <div id="notremenutitredefilement">
-                        <h1>Notre Menu</h1>
-                        <a href="#">
-                            <h2>Pizza</h2>
-                        </a>
-                        <a href="#">
-                            <h2>Sandwich</h2>
-                        </a>
-                        <a href="#">
-                            <h2>Salade</h2>
-                        </a>
-                        <a href="#">
-                            <h2>Plats</h2>
-                        </a>
-                    </div>
-                </div>
-                <div id="notremenubloqueimage">
-                    <div id="notremenulisteimage">
-                        <div class="notremenuimageetdetail">
-                            <img src="image/pizza1.jpg" alt="">
-                            <h1>Pizza salade fromage</h1>
-                            <h2>20$</h2>
-                            <h3>*****</h3>
-                        </div>
-                        <div class="notremenuimageetdetail">
-                            <img src="image/pizza2.jpg" alt="">
-                            <h1>Pizza salade fromage</h1>
-                            <h2>20$</h2>
-                            <h3>*****</h3>
-                        </div>
-                        <div class="notremenuimageetdetail">
-                            <img src="image/pizza3.jpg" alt="">
-                            <h1>Pizza salade fromage</h1>
-                            <h2>20$</h2>
-                            <h3>*****</h3>
-                        </div>
-                        <div class="notremenuimageetdetail">
-                            <img src="image/pizza4.jpg" alt="">
-                            <h1>Pizza salade fromage</h1>
-                            <h2>20$</h2>
-                            <h3>*****</h3>
-                        </div>
-                        <div class="notremenuimageetdetail">
-                            <img src="image/pizza5.jpg" alt="">
-                            <h1>Pizza salade fromage</h1>
-                            <h2>20$</h2>
-                            <h3>*****</h3>
-                        </div>
-                        <div class="notremenuimageetdetail">
-                            <img src="image/pizza3.jpg" alt="">
-                            <h1>Pizza salade fromage</h1>
-                            <h2>20$</h2>
-                            <h3>*****</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="livraisongratuite">
-            <div id="livraisongratuitetaille">
-                <img src="image/slide1.jpg" alt="">
-                <div id="livraisongratuitedetails">
-                    <h2>Livraison gratuite avec</h2>
-                    <h1>Pizza du jour</h1>
-                    <h3>25$ - 35$</h3>
-                    <a href="#">
-                        <h1>Commander maintenant</h1>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section id="venteduweekend">
-            <div id="venteduweekenttaille">
-                <div id="venteduweekendtitre">
-                    <h1>Top Vente du weekend</h1>
-                </div>
-                <div id="venteduweekendimages">
-                    <div class="venteduweekendimagesetdetail">
-                        <a href="#">
-                            <img src="image/pizza2.jpg" alt="">
-                        </a>
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2>25$</h2>
+                        <h1>Pizza salade fromage</h1>
+                        <h2>20$</h2>
                         <h3>*****</h3>
                     </div>
-                    <div class="venteduweekendimagesetdetail">
-                        <a href="#">
-                            <img src="image/pizza2.jpg" alt="">
-                        </a>
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2>25$</h2>
-                        <h3>*****</h3>
-                    </div>
-                    <div class="venteduweekendimagesetdetail">
-                        <a href="#">
-                            <img src="image/pizza2.jpg" alt="">
-                        </a>
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2>25$</h2>
-                        <h3>*****</h3>
-                    </div>
-                    <div class="venteduweekendimagesetdetail">
-                        <a href="#">
-                            <img src="image/pizza2.jpg" alt="">
-                        </a>
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2>25$</h2>
-                        <h3>*****</h3>
-                    </div>
-                    <div class="venteduweekendimagesetdetail">
-                        <a href="#">
-                            <img src="image/pizza2.jpg" alt="">
-                        </a>
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2>25$</h2>
-                        <h3>*****</h3>
-                    </div>
-                    <div class="venteduweekendimagesetdetail">
-                        <a href="#">
-                            <img src="image/pizza2.jpg" alt="">
-                        </a>
-                        <a href="#">
-                            <h1>Pizza salade fromage</h1>
-                        </a>
-                        <h2>25$</h2>
+                    <div class="notremenuimageetdetail">
+                        <img src="image/pizza3.jpg" alt="">
+                        <h1>Pizza salade fromage</h1>
+                        <h2>20$</h2>
                         <h3>*****</h3>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="menupopulaire">
-            <div id="menupopulairetaille">
-                <div id="menupopulairebarretitre">
-                    <h1>Menu Populaire</h1>
+        </div>
+    </section>
+    <section id="livraisongratuite">
+        <div id="livraisongratuitetaille">
+            <img src="image/slide1.jpg" alt="">
+            <div id="livraisongratuitedetails">
+                <h2>Livraison gratuite avec</h2>
+                <h1>Pizza du jour</h1>
+                <h3>25$ - 35$</h3>
+                <a href="#">
+                    <h1>Commander maintenant</h1>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="venteduweekend">
+        <div id="venteduweekenttaille">
+            <div id="venteduweekendtitre">
+                <h1>Top Vente du weekend</h1>
+            </div>
+            <div id="venteduweekendimages">
+                <div class="venteduweekendimagesetdetail">
+                    <a href="#">
+                        <img src="image/pizza2.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2>25$</h2>
+                    <h3>*****</h3>
                 </div>
-                <div id="menupopulairebloque">
-                    <div class="menupopulairebloquedetails">
-                        <figure>
-                            <a href="#"><img src="image/c10.jpg" alt=""></a>
-                        </figure>
-                        <h2>Hambourger</h2>
-                        <p>numero un des Sandwich</p>
-                        <a href="#">
-                            <h1>Commander</h1>
-                        </a>
-                    </div>
-                    <div class="menupopulairebloquedetails">
-                        <figure>
-                            <a href="#"><img src="image/c11.jpg" alt=""></a>
-                        </figure>
-                        <h2>pizza</h2>
-                        <p>numero un des pizza</p>
-                        <a href="#">
-                            <h1>Commander</h1>
-                        </a>
-                    </div>
-                    <div class="menupopulairebloquedetails">
-                        <figure>
-                            <a href="#"><img src="image/c12.jpg" alt=""></a>
-                        </figure>
-                        <h2>frite</h2>
-                        <p>numero un des frite</p>
-                        <a href="#">
-                            <h1>Commander</h1>
-                        </a>
-                    </div>
-                    <div class="menupopulairebloquedetails">
-                        <figure>
-                            <a href="#"><img src="image/c13.jpg" alt=""></a>
-                        </figure>
-                        <h2>creme</h2>
-                        <p>numero un des creme</p>
-                        <a href="#">
-                            <h1>Commander</h1>
-                        </a>
-                    </div>
+                <div class="venteduweekendimagesetdetail">
+                    <a href="#">
+                        <img src="image/pizza2.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2>25$</h2>
+                    <h3>*****</h3>
+                </div>
+                <div class="venteduweekendimagesetdetail">
+                    <a href="#">
+                        <img src="image/pizza2.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2>25$</h2>
+                    <h3>*****</h3>
+                </div>
+                <div class="venteduweekendimagesetdetail">
+                    <a href="#">
+                        <img src="image/pizza2.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2>25$</h2>
+                    <h3>*****</h3>
+                </div>
+                <div class="venteduweekendimagesetdetail">
+                    <a href="#">
+                        <img src="image/pizza2.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2>25$</h2>
+                    <h3>*****</h3>
+                </div>
+                <div class="venteduweekendimagesetdetail">
+                    <a href="#">
+                        <img src="image/pizza2.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <h1>Pizza salade fromage</h1>
+                    </a>
+                    <h2>25$</h2>
+                    <h3>*****</h3>
                 </div>
             </div>
-        </section>
-
-        <div id="newsletters">
-            <div id="newsletterstaille">
-                <div id="newsletterstitre">
-                    <i class="fa-regular fa-envelope-open fa-4x"></i>
-                    <div id="newsletterstitretexte">
-                        <h1>S'INSCRIRE A LA NEWSLETTERS</h1>
-                        <p>...et recevez 20$ de coupon sur le premier achat</p>
-                    </div>
+        </div>
+    </section>
+    <section id="menupopulaire">
+        <div id="menupopulairetaille">
+            <div id="menupopulairebarretitre">
+                <h1>Menu Populaire</h1>
+            </div>
+            <div id="menupopulairebloque">
+                <div class="menupopulairebloquedetails">
+                    <figure>
+                        <a href="#"><img src="image/c10.jpg" alt=""></a>
+                    </figure>
+                    <h2>Hambourger</h2>
+                    <p>numero un des Sandwich</p>
+                    <a href="#">
+                        <h1>Commander</h1>
+                    </a>
                 </div>
-                <div id="newslettersformulaire">
-                    <form>
-                        <input type="email" id="emailnewsletters" placeholder="votre adresse email">
-                        <input type="submit" value="S'INSCRIRE">
-                    </form>
+                <div class="menupopulairebloquedetails">
+                    <figure>
+                        <a href="#"><img src="image/c11.jpg" alt=""></a>
+                    </figure>
+                    <h2>pizza</h2>
+                    <p>numero un des pizza</p>
+                    <a href="#">
+                        <h1>Commander</h1>
+                    </a>
                 </div>
-                <div id="newslettersreseaux">
+                <div class="menupopulairebloquedetails">
+                    <figure>
+                        <a href="#"><img src="image/c12.jpg" alt=""></a>
+                    </figure>
+                    <h2>frite</h2>
+                    <p>numero un des frite</p>
                     <a href="#">
-                        <i class="fa-brands fa-facebook-f fa-2x"></i>
+                        <h1>Commander</h1>
                     </a>
+                </div>
+                <div class="menupopulairebloquedetails">
+                    <figure>
+                        <a href="#"><img src="image/c13.jpg" alt=""></a>
+                    </figure>
+                    <h2>creme</h2>
+                    <p>numero un des creme</p>
                     <a href="#">
-                        <i class="fa-brands fa-instagram fa-2x"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-twitter fa-2x"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-youtube fa-2x"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-telegram fa-2x"></i>
+                        <h1>Commander</h1>
                     </a>
                 </div>
             </div>
         </div>
-        <footer>
-            <div id="footertaille">
-                <div id="informationcontact">
+    </section>
 
-                    <div id="infocomptefooter">
-                        <h1>INFORMATION COMPTE</h1>
-                        <div id="infocomptefooterdetails">
-                            <a href="#"><i class="fa-solid fa-phone fa-1x"></i>
-                                <p>+243 898 899 702</p>
-                            </a>
-                            <a href="#"><i class="fa-regular fa-envelope fa-1x"></i>
-                                <p>prince64denis@gmail.com</p>
-                            </a>
-                            <a href="#"><i class="fa-solid fa-location-dot fa-1x"></i>
-                                <p>16b, boyata, singa-mopepe, lingwala, Kinshasa</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="footerserviceclient">
-                        <h1>SERVICE CLIENT</h1>
-                        <a href="#">
-                            Centre d'aide
-                        </a>
-                        <a href="#">
-                            Offre de livraison
-                        </a>
-                        <a href="#">
-                            politique de retour
-                        </a>
-                        <a href="#">
-                            Rappel de produit
-                        </a>
-                        <a href="#">
-                            suivre votre commande
-                        </a>
-                    </div>
-                    <div id="footerinstagram">
-                        <h1>INSTAGRAM</h1>
-                        <div id="footerinstagramimage">
-                            <a href="#"><img src="image/pizza1.jpg" alt=""></a>
-                            <a href="#"><img src="image/pizza2.jpg" alt=""></a>
-                            <a href="#"><img src="image/pizza3.jpg" alt=""></a>
-                            <a href="#"><img src="image/pizza4.jpg" alt=""></a>
-                            <a href="#"><img src="image/pizza5.jpg" alt=""></a>
-                            <a href="#"><img src="image/pizza3.jpg" alt=""></a>
-                            <a href="#"><img src="image/pizza1.jpg" alt=""></a>
-                            <a href="#"><img src="image/pizza5.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div id="paiementmethodfooter">
-                        <h1>METHODE DE PAIEMENT</h1>
-                        <div id="paiementmethodfooterimage">
-                            <a href="#"><i class="fa-solid fa-credit-card fa-1x"></i></a>
-                            <a href="#"><i class="fa-brands fa-cc-visa fa-1x"></i></a>
-                            <a href="#"><i class="fa-brands fa-cc-mastercard fa-1x"></i></a>
-                            <a href="#"><i class="fa-brands fa-google-pay fa-1x"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="footerlicence">
-                    <p>Copyright © 2021 Prince Denis Okito Ltd. All rights reserved. Design by: Prince Denis Okito</p>
+    <div id="newsletters">
+        <div id="newsletterstaille">
+            <div id="newsletterstitre">
+                <i class="fa-regular fa-envelope-open fa-4x"></i>
+                <div id="newsletterstitretexte">
+                    <h1>S'INSCRIRE A LA NEWSLETTERS</h1>
+                    <p>...et recevez 20$ de coupon sur le premier achat</p>
                 </div>
             </div>
-        </footer>
+            <div id="newslettersformulaire">
+                <form>
+                    <input type="email" id="emailnewsletters" placeholder="votre adresse email">
+                    <input type="submit" value="S'INSCRIRE">
+                </form>
+            </div>
+            <div id="newslettersreseaux">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-telegram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footertaille">
+            <div id="informationcontact">
+
+                <div id="infocomptefooter">
+                    <h1>INFORMATION COMPTE</h1>
+                    <div id="infocomptefooterdetails">
+                        <a href="#"><i class="fa-solid fa-phone fa-1x"></i>
+                            <p>+243 898 899 702</p>
+                        </a>
+                        <a href="#"><i class="fa-regular fa-envelope fa-1x"></i>
+                            <p>prince64denis@gmail.com</p>
+                        </a>
+                        <a href="#"><i class="fa-solid fa-location-dot fa-1x"></i>
+                            <p>16b, boyata, singa-mopepe, lingwala, Kinshasa</p>
+                        </a>
+                    </div>
+                </div>
+                <div id="footerserviceclient">
+                    <h1>SERVICE CLIENT</h1>
+                    <a href="#">
+                        Centre d'aide
+                    </a>
+                    <a href="#">
+                        Offre de livraison
+                    </a>
+                    <a href="#">
+                        politique de retour
+                    </a>
+                    <a href="#">
+                        Rappel de produit
+                    </a>
+                    <a href="#">
+                        suivre votre commande
+                    </a>
+                </div>
+                <div id="footerinstagram">
+                    <h1>INSTAGRAM</h1>
+                    <div id="footerinstagramimage">
+                        <a href="#"><img src="image/pizza1.jpg" alt=""></a>
+                        <a href="#"><img src="image/pizza2.jpg" alt=""></a>
+                        <a href="#"><img src="image/pizza3.jpg" alt=""></a>
+                        <a href="#"><img src="image/pizza4.jpg" alt=""></a>
+                        <a href="#"><img src="image/pizza5.jpg" alt=""></a>
+                        <a href="#"><img src="image/pizza3.jpg" alt=""></a>
+                        <a href="#"><img src="image/pizza1.jpg" alt=""></a>
+                        <a href="#"><img src="image/pizza5.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div id="paiementmethodfooter">
+                    <h1>METHODE DE PAIEMENT</h1>
+                    <div id="paiementmethodfooterimage">
+                        <a href="#"><i class="fa-solid fa-credit-card fa-1x"></i></a>
+                        <a href="#"><i class="fa-brands fa-cc-visa fa-1x"></i></a>
+                        <a href="#"><i class="fa-brands fa-cc-mastercard fa-1x"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-pay fa-1x"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footerlicence">
+                <p>Copyright © 2021 Prince Denis Okito Ltd. All rights reserved. Design by: Prince Denis Okito</p>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -569,12 +551,12 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
