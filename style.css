@@ -34,7 +34,6 @@ nav {
 #titrelogo {
   font-family: futura-extra-bold;
   font-size: 2rem;
-  display: flex;
 }
 #offre > a:hover {
   color: yellow;
