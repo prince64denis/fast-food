@@ -1194,9 +1194,9 @@ footer {
   bottom: 0px;
 }
 @media only screen and (max-width: 575.98px) {
-  html {
+  /* html {
     font-size: 50%;
-  }
+  } */
   section {
   }
   #recherche {
