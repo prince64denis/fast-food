@@ -37,7 +37,6 @@ nav {
   font-family: futura-extra-bold;
   font-size: 2rem;
   display: flex;
-  text-shadow: 1px 1px 1px #fff;
 }
 #offre > a:hover {
   color: yellow;
