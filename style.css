@@ -33,7 +33,17 @@ nav {
 }
 #titrelogo {
   font-family: futura-extra-bold;
-  font-size: 2rem;
+}
+#recherchenone {
+  display: none !important;
+}
+#connexionnone > a{
+  color: white !important;
+  display: none !important;
+  text-decoration: none;
+}
+#logoettitre > a {
+  text-decoration: none !important;
 }
 #offre > a:hover {
   color: yellow;
@@ -92,11 +102,7 @@ nav {
   font-family: futura-medium;
   font-size: 1rem;
   color: #303030;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 240, 0, 1) 30%,
-    rgba(255, 248, 136, 1) 100%
-  );
+  background-color: #FFC107;
   border-radius: 10px;
   margin: 20px 0px 0px 0px;
   padding: 20px;
@@ -104,11 +110,7 @@ nav {
 }
 #slidetailleimagegrandtexte a > h1:hover {
   transition: all 0.5s ease;
-  background: linear-gradient(
-    0deg,
-    rgb(218, 11, 11) 30%,
-    rgb(255, 76, 76) 100%
-  );
+  background-color: rgb(218, 11, 11);
   color: white;
   box-shadow: none;
 }
@@ -182,20 +184,12 @@ nav {
   color: white;
   display: inline-block;
   padding: 10px;
-  background: linear-gradient(
-    0deg,
-    rgb(218, 11, 11) 30%,
-    rgb(255, 76, 76) 100%
-  );
+  background-color: rgb(218, 11, 11);
   border-radius: 10px;
   box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.7);
 }
 .slidetailleasidetexte > a > h1:hover {
-  background: linear-gradient(
-    0deg,
-    rgba(255, 240, 0, 1) 30%,
-    rgba(255, 248, 136, 1) 100%
-  );
+  background-color: #FFC107;
   color: #333333;
   transition: all 0.5s ease;
   box-shadow: none;
@@ -481,11 +475,7 @@ section {
   font-family: futura-medium;
   font-size: 1rem;
   color: #303030;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 240, 0, 1) 30%,
-    rgba(255, 248, 136, 1) 100%
-  );
+  background-color: #FFC107;
   border-radius: 10px;
   margin: 20px 0px 0px 0px;
   padding: 20px;
@@ -493,11 +483,7 @@ section {
 }
 #livraisongratuitedetails a > h1:hover {
   transition: all 0.5s ease;
-  background: linear-gradient(
-    0deg,
-    rgb(218, 11, 11) 30%,
-    rgb(255, 76, 76) 100%
-  );
+  background-color: rgb(218, 11, 11);
   color: white;
   box-shadow: none;
 }
@@ -658,11 +644,7 @@ section {
   font-family: futura-medium;
   font-size: 0.8rem;
   color: #303030;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 240, 0, 1) 30%,
-    rgba(255, 248, 136, 1) 100%
-  );
+  background-color: #FFC107;
   border-radius: 10px;
   margin: 10px 0px 10px 0px;
   padding: 10px;
@@ -670,11 +652,7 @@ section {
 }
 .menupopulairebloquedetails > a > h1:hover {
   transition: all 0.5s ease;
-  background: linear-gradient(
-    0deg,
-    rgb(218, 11, 11) 30%,
-    rgb(255, 76, 76) 100%
-  );
+  background-color: rgb(218, 11, 11);
   color: white;
   box-shadow: none;
 }
@@ -723,11 +701,7 @@ section {
   position: absolute;
   bottom: 0%;
   left: 10%;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 240, 0, 1) 30%,
-    rgba(255, 248, 136, 1) 100%
-  );
+  background-color: #FFC107;
   border-radius: 5px;
   padding: 15px;
 }
@@ -988,14 +962,14 @@ section {
 }
 #newsletterstaille {
   width: 85%;
-  padding: 50px 0px;
+  padding: 50px 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 #newsletterstitre {
-  width: 25%;
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1014,8 +988,8 @@ section {
   font-family: lato;
   font-size: 0.8rem;
 }
-#newslettersformulaire {
-  width: 40%;
+/* #newslettersformulaire {
+  padding: 30px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1024,8 +998,8 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-#newslettersformulaire > form > input[type="email"] {
+} */
+/* #newslettersformulaire > form > input[type="email"] {
   font-size: 0.8rem;
   list-style: none;
   padding: 10px 20px;
@@ -1035,30 +1009,21 @@ section {
 #newslettersformulaire > form > input[type="submit"] {
   font-family: futura-medium;
   font-size: 1rem;
-  color: #303030;
-  border: none;
+  color: white;
+  border: 2px solid #FBAD07;
   border-radius: 0px 50px 50px 0px;
   padding: 10px 20px;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 240, 0, 1) 30%,
-    rgba(255, 248, 136, 1) 100%
-  );
+  background-color: transparent;
   list-style: none;
   margin: 0px 0px 0px -1px;
   cursor: pointer;
 }
 #newslettersformulaire > form > input[type="submit"]:hover {
-  background: linear-gradient(
-    0deg,
-    rgb(218, 11, 11) 30%,
-    rgb(255, 76, 76) 100%
-  );
-  color: white;
+  background-color: #FBAD07;
+  color: #303030;
   transition: all 0.5s ease;
-}
+} */
 #newslettersreseaux {
-  width: 25%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -1076,7 +1041,7 @@ section {
 }
 footer {
   width: 100%;
-  height: 100vh;
+  padding: 60px 0px 10px 0px;
   background-color: #1a1a1a;
   display: flex;
   flex-direction: column;
@@ -1087,8 +1052,8 @@ footer {
   width: 85%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 #informationcontact {
   width: 100%;
@@ -1096,6 +1061,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   border-bottom: solid 1px #cccccc;
+  padding: 0px 0px 60px 0px;
 }
 #infocomptefooter,
 #footerserviceclient,
@@ -1103,7 +1069,9 @@ footer {
 #paiementmethodfooter {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 #infocomptefooter > h1,
 #footerserviceclient > h1,
@@ -1111,7 +1079,7 @@ footer {
 #paiementmethodfooter > h1 {
   font-family: futura-medium;
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-bottom: solid 2px red;
   margin: 0px 0px 40px 0px;
 }
@@ -1121,15 +1089,17 @@ footer {
 #paiementmethodfooter > a {
   text-decoration: none;
   color: #cccccc;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: lato;
-  margin: 0px 0px 15px 0px;
+  margin: 10px;
 }
 #infocomptefooterdetails > a > p,
 #footerserviceclient > a > p {
   color: #cccccc;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 0px 0px 0px 30px;
+  margin: 0px;
+  line-height: 25px;
 }
 #infocomptefooterdetails > a > i {
   color: yellow;
@@ -1146,20 +1116,6 @@ footer {
 #footerserviceclient {
   display: flex;
   flex-direction: column;
-}
-#footerinstagram {
-  display: flex;
-  flex-direction: column;
-}
-#footerinstagramimage {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-#footerinstagramimage > a > img {
-  width: 60px;
-  padding: 7px;
 }
 #paiementmethodfooter {
   display: flex;
@@ -1187,7 +1143,10 @@ footer {
   width: 100%;
   color: #cccccc;
   font-size: 0.8rem;
-  bottom: 0px;
+}
+.footerlicence > p > a {
+  text-decoration: none;
+  color: yellow;
 }
 @media only screen and (max-width: 575.98px) {
   /* html {
@@ -1195,9 +1154,7 @@ footer {
   } */
   section {
   }
-  #recherche {
-    display: none;
-  }
+  
   #slidetaille {
     width: 95%;
     flex-direction: column;
@@ -1240,7 +1197,9 @@ footer {
     width: 95%;
   }
   #newsletterstaille {
-    flex-direction: column;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
   }
   #newsletterstitre {
     width: 100%;
@@ -1290,6 +1249,20 @@ footer {
 }
 @media (max-width: 991.98px) {
   section {
+  }
+  #logoettitre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #recherche {
+    display: none;
+  }
+  #recherchenone {
+    display: flex !important;
+  }
+  #connexionnone > a{
+    display: block !important;
   }
 }
 @media (max-width: 1199.98px) {
