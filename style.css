@@ -38,9 +38,14 @@ nav {
   display: none !important;
 }
 #connexionnone > a{
-  color: white !important;
   display: none !important;
   text-decoration: none;
+}
+#connexionnone > a > i {
+  color: #FFC107;
+  border: 1px solid #FFC107;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 #logoettitre > a {
   text-decoration: none !important;
@@ -487,23 +492,26 @@ section {
   color: white;
   box-shadow: none;
 }
-#livraisongratuitedetails h1 {
+#livraisongratuitedetails > h1 {
   font-family: futura-bold;
   font-size: 3.5rem;
   padding: 0px 0px 10px 0px;
-  color: rgb(154, 201, 156);
+  color: #303030;
+  text-shadow: 3px 3px 3px #E6DCDC;
 }
-#livraisongratuitedetails h2 {
+#livraisongratuitedetails > h2 {
   font-family: futura-medium;
   font-size: 2.5rem;
   padding: 0px 0px 10px 0px;
-  color: #f0cece;
+  color: red;
+  text-shadow: 3px 3px 3px #E6DCDC;
 }
-#livraisongratuitedetails h3 {
+#livraisongratuitedetails > h3 {
   font-family: futura-medium;
   font-size: 2rem;
   padding: 0px 0px 10px 0px;
-  color: #f1e4e4;
+  color: red;
+  text-shadow: 3px 3px 3px #E6DCDC;
 }
 #venteduweekend {
   width: 100%;
